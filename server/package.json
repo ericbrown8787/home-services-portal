@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "getclientbuild": "rm -rf public/* && cp -r ../client/dist/* public"
   },
   "type": "module",
   "dependencies": {
